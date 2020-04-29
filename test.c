@@ -3,9 +3,9 @@
 int main(void)
 {
 	int a;
-	scnaf("%d", &a);
+	scanf("%d", &a);
 
 	printf("%d", a);
-
+  
 	return 0;
 }
