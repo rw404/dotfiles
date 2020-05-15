@@ -5,6 +5,8 @@ let g:mapleader=','  ",+s -> search"
 set encoding=UTF-8
 set guifont=Fura\ Code\ Light\ Nerd\ Font\ Complete:h16
 let g:airline_theme='luna'
+let g:Powerline_symbols = 'fancy'
+let g:airline_powerline_fonts = 1
 
 syntax on
 set hlsearch
@@ -28,6 +30,9 @@ call plug#end()
 
 colorscheme gruvbox
 set background=dark
+
+let g:tex_flavor='latex'
+let g:vimtex_view_method='mupdf'
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
