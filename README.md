@@ -15,7 +15,7 @@ brew install tmux
 brew install alacritty
 ```
 2. clone this repository: `git clone https://github.com/rw404/firstGit`
-3. install **[vim-plug]**(https://github.com/junegunn/vim-plug):
+3. install **[vim-plug](https://github.com/junegunn/vim-plug)**:
         `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim `
 4. install Nerd fonts and Fira code font:
 ```
@@ -40,11 +40,10 @@ brew install zathura-pdf-poppler
 mkdir -p $(brew --prefix zathura)/lib/zathura
 ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
 ```
-8. install markdown components:
+8. install markdown components(plugin [here](https://github.com/iamcco/markdown-preview.nvim)):
 ```
 brew install node
 ```
-  guide [here](https://github.com/iamcco/markdown-preview.nvim)
-9. end
+9. ~~end~~
 ![cat](https://region.center/source/TULA/2018/07/computer-cat-cats-1385999-background-wallpapers.jpg)
 
