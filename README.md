@@ -3,8 +3,8 @@
 
 ## Steps
 1. install brew and components ([brew](https://brew.sh/index_ru)):
-'''
 
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
           
 brew install gcc
@@ -15,7 +15,7 @@ brew install tmux
           
 brew install alacritty
 
-'''
+```
 
 2. clone this repository: ' git clone https://github.com/rw404/firstGit '
 3. install **[vim-plug]**(https://github.com/junegunn/vim-plug):
