@@ -44,6 +44,18 @@ ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix 
 ```
 brew install node
 ```
-9. ~~end~~
+9. [Oh_my_zsh](https://github.com/ohmyzsh/ohmyzsh):
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+10. [Pfetch](https://github.com/dylanaraps/pfetch):
+```
+git clone https://github.com/dylanaraps/pfetch.git
+
+sudo install pfetch/pfetch /usr/local/bin/
+
+ls -l /usr/local/bin/pfetch
+```
+11. ~~relax~~
 ![cat](https://region.center/source/TULA/2018/07/computer-cat-cats-1385999-background-wallpapers.jpg)
 
