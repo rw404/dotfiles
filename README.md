@@ -1,5 +1,5 @@
-# Installation guide(for MacOS)
----------------------------------------------------------
+# Installation guide(for MacOS) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="80" title="don't panic, i'm normal">
+---
 
 ## Steps
 1. install brew and components ([brew](https://brew.sh/index_ru)):
@@ -14,7 +14,7 @@ brew install tmux
           
 brew install alacritty
 ```
-2. clone this repository: `git clone https://github.com/rw404/firstGit`
+2. clone this repository: `git clone https://github.com/rw404/dotfiles.git`
 3. install **[vim-plug](https://github.com/junegunn/vim-plug)**:
         `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim `
 4. install Nerd fonts and Fira code font:
@@ -56,6 +56,15 @@ sudo install pfetch/pfetch /usr/local/bin/
 
 ls -l /usr/local/bin/pfetch
 ```
-11. ~~relax~~
+11. you can add alacritty.yml to .config directory:
+```
+#check .config/alacritty folder:
+#if there is no such folder, run this
+mkdir ~/.config/alacritty
+
+#then/if you have such folder run this
+cp -f alacritty.yml ~/.config/alacritty/
+```
+12. ~~relax~~
 ![cat](https://region.center/source/TULA/2018/07/computer-cat-cats-1385999-background-wallpapers.jpg)
 
