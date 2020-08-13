@@ -27,6 +27,9 @@ rm -rf alacritty
 ```
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code-nerd-font
+
+cd dotfiles
+cp -f .vimrc ~/
 ```
 5. go to .vimrc and install plugins:
         `:PlugInstall`
