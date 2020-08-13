@@ -26,7 +26,7 @@ rm -rf alacritty
 4. install Nerd fonts and Fira code font:
 ```
 brew tap homebrew/cask-fonts
-brew cask install font-firacode-nerd-font
+brew cask install font-fira-code-nerd-font
 ```
 5. go to .vimrc and install plugins:
         `:PlugInstall`
