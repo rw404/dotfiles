@@ -12,7 +12,13 @@ brew install gdb
 brew install vim
 brew install tmux
           
-brew install alacritty
+git clone https://github.com/alacritty/alacritty.git
+cd alacritty
+
+make app
+cp -r target/release/osx/Alacritty.app /Applications/
+cd
+rm -rf alacritty
 ```
 2. clone this repository: `git clone https://github.com/rw404/dotfiles.git`
 3. install **[vim-plug](https://github.com/junegunn/vim-plug)**:
