@@ -38,7 +38,7 @@ cp -f .vimrc ~/
 brew install cmake macvim python
 brew install mono go nodejs
 cd ~/.vim/plugged/YouCompleteMe
-python3 install.py --all
+./install.py --all
 ```
 7. install zathura:
 ```
