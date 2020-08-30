@@ -25,6 +25,15 @@ rm -rf alacritty
         `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim `
 4. install Nerd fonts and Fira code font:
 ```
+------------------------------------------
+ERRORS
+------------------------------------------
+##########################################
+brew cask reinstall font-fira-code
+##########################################
+------------------------------------------
+END
+------------------------------------------
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code-nerd-font
 
