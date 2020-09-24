@@ -1,6 +1,9 @@
 set number relativenumber
 set expandtab
-set tabstop=2
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set expandtab
 let g:mapleader=','  ",+s -> search"
 set encoding=UTF-8
 set guifont=Fura\ Code\ Light\ Nerd\ Font\ Complete:h16
