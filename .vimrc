@@ -11,6 +11,8 @@ let g:airline_theme='one'
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
 
+set t_Co=256
+
 set showtabline=0
 set wrap linebreak nolist "soft wrapping
 set textwidth=100
@@ -33,6 +35,8 @@ set hlsearch
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'alepez/vim-gtest'
+"Plug 'vim-scripts/vim-gtest'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 "colorschemes""
 Plug 'Valloric/YouCompleteMe'
@@ -51,7 +55,11 @@ Plug 'neomake/neomake'
 Plug 'vifm/vifm.vim'
 Plug 'ap/vim-css-color'
 Plug 'vimwiki/vimwiki'
+Plug 'jupyter-vim/jupyter-vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'sheerun/vim-polyglot'
+Plug 'phanviet/vim-monokai-pro'
+Plug 'crusoexia/vim-monokai'
 
 call plug#end()
 
@@ -87,6 +95,10 @@ nnoremap <Leader>ld :MarkdownPreview<CR>
 
 nnoremap <Leader>pp :Vifm<CR>
 
+nnoremap <C-m> :make<CR> 
+nnoremap <C-r> :!./test<CR>
+nnoremap <C-d> :terminal gdb genrand<CR>
+
 map <C-n> :NERDTreeToggle<CR>
 map <Leader> <Plug>(easymotion-prefix)
 
@@ -98,4 +110,10 @@ if has('mouse')
   set mouse=a
 endif
 
+set termguicolors
 
+colorscheme monokai
+
+let g:lightline = {
+    \ 'colorscheme': 'monokai_pro',
+    \}
