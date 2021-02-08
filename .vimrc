@@ -115,6 +115,8 @@ set termguicolors
 
 colorscheme gotham
 
+hi! Normal ctermbg=NONE guibg=NONE
+
 let g:lightline = {
     \ 'colorscheme': 'monokai_pro',
     \}
