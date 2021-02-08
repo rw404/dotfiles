@@ -60,6 +60,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'sheerun/vim-polyglot'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'crusoexia/vim-monokai'
+Plug 'whatyouhide/vim-gotham'
 
 call plug#end()
 
@@ -112,7 +113,7 @@ endif
 
 set termguicolors
 
-colorscheme monokai
+colorscheme gotham
 
 let g:lightline = {
     \ 'colorscheme': 'monokai_pro',
