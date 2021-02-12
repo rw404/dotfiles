@@ -86,3 +86,18 @@ cp -f alacritty.yml ~/.config/alacritty/
 12. ~~relax~~
 ![cat](https://region.center/source/TULA/2018/07/computer-cat-cats-1385999-background-wallpapers.jpg)
 
+13. Fun commands
+
+```bash
+fortune - рандомный текст
+cowsay - говорит животное(через -l список других животных)
+lolcat - раскраска в радугу
+doge - мемная собака и рандомные словечки
+figlet/toilet - крутой текст (большой и прикольдесный)
+asciiquarium - аквариум
+aafire - огонек
+tty-clock - часики
+sudo visudo - Defaults insults -- ругаться если с паролем беды
+hollywood - фэк взлом
+bb - микро видосик
+```
