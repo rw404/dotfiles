@@ -12,7 +12,7 @@ enter the terminal. The source is `hi.c`:
 
 ### Instruction
 
-Run following command and enter your sudo password if you want to add `hi` to your `/bin`
+Run the following command and enter your sudo password if you want to add `hi` to your `/bin`
 directory:
 ```bash
 ./add_to_bin
